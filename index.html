@@ -37,45 +37,6 @@
 	</head>
 	
 	<body>
-		<!--right-drawer-->
-		<!-- <div id="drawer-right">
-			<div class="cross text-right">
-				<a class="toggleDrawer" href="#"><i class="fa fa-times-circle fa-2x"></i></a>
-			</div>
-			<h2>Navigate</h2>
-			<nav>
-				<ul class="nav nav-pills nav-stacked">
-					<li>
-						<a href="#wrapper"><i class="fa fa-home"></i> Home</a>
-					</li>
-					<li>
-						<a href="#profile"><i class="fa fa-user"></i> プロフィール</a>
-					</li>
-					<li>
-						<a href="#background"><i class="fa fa-briefcase"></i> 学歴・職歴</a>
-					</li>
-					<li>
-						<a href="#publications"><i class="fa fa-book"></i> 論文・出版物</a>
-					</li>
-					<li>
-						<a href="#presentations"><i class="fa fa-microphone"></i> 発表</a>
-					</li>
-					<li>
-						<a href="#grants"><i class="fa fa-lightbulb-o"></i> 研究費・プロジェクト</a>
-					</li>
-					<li>
-						<a href="#awards"><i class="fa fa-trophy"></i> 受賞など</a>
-					</li>
-					<li>
-						<a href="#patents"><i class="fa fa-certificate"></i> 特許</a>
-					</li>
-					<li>
-						<a href="#footer"><i class="fa fa-envelope"></i> Contact</a>
-					</li>
-					
-				</ul>
-			</nav>
-		</div> -->
 
 		<div id="wrapper">
 			
@@ -83,10 +44,11 @@
 				<div class="header-wrapper-inner">
 					<section class="top clearfix">
 						<div class="pull-left">
-							<h1><a class="logo" href="index.html">細川 晃/Ko Hosokawa</a></h1>
+							<h1><a class="logo">細川 晃/Ko Hosokawa</a></h1>
 						</div>
-						<!-- <div class="pull-right">
-							<a class="toggleDrawer" href="#"><i class="fa fa-bars fa-2x"></i></a>
+						<!-- <div class="pull-right lang-switch">
+							<a class="flag-link active" href="index.html" aria-label="日本語ページ">JP</a>
+							<a class="flag-link" href="en.html" aria-label="English page">EN</a>
 						</div> -->
 					</section>
 					<section class="center hero">
@@ -95,27 +57,65 @@
 								<img src="assets/images/testimonial_11-190x190.jpg" alt="Profile photo">
 							</div> -->
 							<div class="slogan">
-								国立天文台の特任研究員（ポスドク）として、<br>太陽系外惑星の大気解析のための分光実験研究と<br>2032年度打ち上げ予定の天文観測衛星JASMINEの開発をしています
+								国立天文台の特任研究員として、<br>太陽系外惑星の大気解析のための分光実験研究と<br>天文観測衛星JASMINEの装置開発をしています
 							</div>
-							<br>
+							<br><br><br><br><br>
 							<ul class="lined-list hero-profile-list">
 								<li>現所属：国立天文台 JASMINEプロジェクト　特任研究員<br>
 								　　　　〒181-8588　東京都三鷹市大沢2-21-1</li>
+								<li>専門分野：実験・観測装置開発、太陽系外惑星科学</li>
 								<li>E-mail: ko.hosokawa_at_nao.ac.jp<br>
 									　　　（※_at_を＠に読み替えてください）</li>
-								<li>専門分野: 実験・観測装置開発、太陽系外惑星科学</li>
+								<li>Researchmap: <a href="https://researchmap.jp/hosokawako" target="_blank" rel="noopener">https://researchmap.jp/hosokawako</a></li>
+								<li>ORCID: <a href="https://orcid.org/0000-0001-5414-4171" target="_blank" rel="noopener">https://orcid.org/0000-0001-5414-4171</a></li>
 							</ul>
 							
 						</div>
 					</section>
 					
 <section class="bottom">
-						<a id="scrollToContent" href="#profile">
+						<a id="scrollToContent" href="#background">
 							<img src="assets/images/arrow_down.png">
 						</a>
 					</section>
 				</div>
 			</div><!-- header -->
+
+			<div class="content-block cv-section" id="research">
+				<div class="container">
+					<header class="block-heading cleafix">
+						<h1>主な研究・開発</h1>
+						<h3>ガスセル実験</h3>
+					</header>
+					<p class="indent-text">現在、地上や宇宙の望遠鏡で大気を調べている太陽系外惑星（系外惑星）の多くは、高温で水素・ヘリウムが占める大気を持つと考えられています。
+						系外惑星の分光スペクトルを高分解能で得る観測手法や、その解析手法が進展し、近年ではスペクトル中の分子吸収線の形状から大気組成や温度・圧力構造などを推定できるようになりました。
+						しかし、その推定精度は分子吸収線の実験データに大きく依存しますが、地球とは異なる高温環境や水素・ヘリウム主体の大気で測定されたデータの蓄積が現在ほとんどありません。<br>
+						　そこで私たちは、円筒状のガラス製セルに水素・ヘリウムと少量の分子（下のグラフではメタン）からなる混合ガスを封入し、電気炉で最大1000Kまで加熱して、系外惑星大気に近い環境を再現できる実験系を製作しました。
+						このガスセルにレーザー光を通し、波長を変えながら透過光の変化を光センサー（フォトダイオード）で記録することで分子吸収スペクトルを測定することが出来ます。
+						分子の吸収線は、周囲の背景分子との衝突により線幅が広がり（圧力広がり）、この広がり方は地球大気と水素主体の大気で異なります。得られた実験スペクトルをモデルと比較することで、
+						メタン分子の吸収線における水素・ヘリウム背景大気下での圧力広がりを初めて実測定しました。(Hosokawa et al., 2025)<br>
+						　今後、メタンと同様に惑星大気スペクトルで顕著な吸収を示す一酸化炭素（CO）の解析のために実験系の更新を進めています。</p>
+
+						
+						<div class="row">
+							<div class="col-sm-6">
+								<img class="Experimental-setup" src="assets/images/Gascell-overview_fig_HP.png" alt="ガスセル実験系">
+							</div>
+							<div class="col-sm-6">
+								<img class="CH4-spectra" src="assets/images/240703_w1600-1630_r00025_CH4VMR01-5path_T300-1000K_VSTemp_overlay.jpg" alt="取得スペクトル">
+							</div>
+						</div>
+
+						<div class="spacer-lg"></div>
+
+						<h3>赤外線位置天文観測衛星JASMINEの検出器ボックスユニット開発</h3>
+						<p class="indent-text">JASMINE衛星は、「銀河系中心領域の位置天文観測」と「中期M型星周りの惑星トランジット探査」を主要な科学目標とする宇宙望遠鏡計画で、2032年頃の打ち上げを目指して準備が進められています。
+							その望遠鏡の中でも観測に欠かせない「目」にあたるイメージセンサーを安定して冷却し、不要な光や熱の影響を防ぐ構造である検出器ボックスユニット（DBU）の開発を担当しています。<br><br>
+						　JASMINE衛星WEBサイト: <a href="https://jasmine.nao.ac.jp/" target="_blank" rel="noopener">https://jasmine.nao.ac.jp/</a></p>
+					<section class="block-body">
+					</section>
+				</div>
+			</div>
 
 			<div class="content-block cv-section alt" id="background">
 				<div class="container">
@@ -152,7 +152,7 @@
 								<div class="cv-year">2016年4月–2018年3月</div>
 								<div class="cv-content">
 									<div class="cv-title">修士（理学）</div>
-									<div class="cv-meta">総合研究大学院大学 物理科学研究科 天文科学専攻　一貫制博士課程</div>
+									<div class="cv-meta">総合研究大学院大学 物理科学研究科 天文科学専攻　一貫制博士課程　※修士取得後中途退学</div>
 									<p class="cv-note">中間レポート（修士論文）題目：「固定式フーリエ分光法を応用した高分散分光器の開発」</p>
 								</div>
 							</div>
@@ -180,7 +180,7 @@
 							<li><span class="pub-title">Hosokawa et al.(2025),</span> "Measurement of Methane Line Broadening in Hot Hydrogen/Helium Atmospheres at λ = 1.60-1.63 μm for Substellar Object Spectroscopy", ApJ, 984, 92-108<br></li>
 						</ol>
 
-						<h3 class="section-subtitle">共著（査読あり）</h3>
+						<h3 class="section-subtitle">共著論文（査読あり）</h3>
 						<ol class="pub-list">
 							<li>H.Kawahara, Y.Kawashima, S.Tada, H.T.Ishikawa, <b>K.Hosokawa</b> et al.(2025), "Differentiable Modeling of Planet and Substellar Atmosphere: High-Resolution Emission, Transmission, and Reflection Spectroscopy with ExoJAX2", ApJ, 985, 2, 263</li>
 						</ol>
@@ -194,7 +194,7 @@
 						<h1>発表</h1>
 					</header>
 					<section class="block-body">
-						<h3 class="section-subtitle">口頭</h3>
+						<h3 class="section-subtitle">口頭講演</h3>
 						<ul class="pub-list">
 							<li>「太陽系外惑星・褐色矮星大気の詳細解析に向けた水素・ヘリウム大気中の高温メタン吸収線幅の研究」, 2025年度光赤天連シンポジウム　学位論文発表会, 2025/11/04-06</li>
 							<li>“Experimental Determination of CH4 Pressure-Broadening in Hot H2/He Atmosphere Using Bayesian Inference”, 日本天文学会 2025年秋季年会, 2025/09/09-11</li>
@@ -202,7 +202,7 @@
 							<li>“Spectral Line Profile Measurement of Methane for Investigating the Atmospheres Rich in H2 and He in Substellar Objects”, Japan Geoscience Union Meeting, 2024/05/28</li>
 							</ul>
 
-						<h3 class="section-subtitle">ポスター</h3>
+						<h3 class="section-subtitle">ポスター等</h3>
 						<ul class="pub-list">
 							<li>「系外惑星模擬大気分光測定」, 第25回宇宙科学シンポジウム(ブースにてポスター＆実験装置の出展), 2025/08/01</li>
 							<li>"Pressure-broadening Measurement of CH4 in H2 and He Bath at 1.6μm for Investigating the Gaseous Exoplanet Atmospheres", 26th International Conference on Spectral Line Shapes, 2024/06/02-07</li>
@@ -218,9 +218,7 @@
 						<h1>研究費・奨学金</h1>
 					</header>
 					<section class="block-body">
-						<h3 class="section-subtitle">研究費</h3>
-
-						<h4 class="section-subsubtitle">研究代表者</h4>
+						<h3 class="section-subtitle">研究費(研究代表者)</h3>
 						<ul class="lined-list">
 							<li>公益財団法人 天文学振興財団 研究助成：2025年11月 (総額50万円)<br>
 								「系外惑星大気の高精度解析を支える汎用的な高温分子吸収線実験拠点の構築」</li>
