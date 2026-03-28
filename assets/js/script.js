@@ -63,15 +63,7 @@
 
 
 	//Set Down Arrow Button
-	jQuery('#scrollToContent').click(function(e){
-		e.preventDefault();
-		var target = "#background";
-		if (jQuery.scrollTo) {
-			jQuery.scrollTo(target, 1000, { offset:-(jQuery('#header .top').height()), axis:'y' });
-		} else {
-			window.location.hash = target;
-		}
-	});
+
 
 	jQuery('nav > ul > li > a').click(function(e){
 		e.preventDefault();
