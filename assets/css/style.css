@@ -156,6 +156,12 @@ h1, h2, h3, h4, h5, h6{
 	letter-spacing: 0.3px;
 }
 
+.publication-review-subtitle {
+	margin: 14px 0 10px 10px;
+	font-weight: 700;
+	letter-spacing: 0.2px;
+}
+
 .pub-list {
 	margin-left: 20px;
 	line-height: 1.5em;
